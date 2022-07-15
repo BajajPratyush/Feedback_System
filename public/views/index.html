@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FeedBack System</title>
+    <!-- UIkit CSS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Montserrat:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.14.1/dist/css/uikit.min.css" />
+    <link rel="stylesheet" href="styles/landing.css">
+</head>
+
+<body>
+    <div class="flex-container">
+
+        <div class="title">
+            <h1>Feedback</h1>
+            <h1>System</h1>
+        </div>
+        <div class="contact">
+            <div class="contact_card">
+                <h3 class="contact_head">Login</h3>
+                <form id="loginform">
+                    <div class="username login">
+                        <label for="username">Username</label>
+                        <br>
+                        <input required type="text" name="username">
+                    </div>
+                    <div class="password login">
+                        <label for="password">Password</label>
+                        <br>
+                        <input required type="text" name="password">
+                    </div>
+                    <p style=" text-align: center;" id="res"></p>
+                    <button class="submit_button">Sign In</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <h3>
+            For Support : Contact ERP Cell
+        </h3>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="js/login.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.14.1/dist/js/uikit.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.14.1/dist/js/uikit-icons.min.js"></script>
+</body>
+
+</html>

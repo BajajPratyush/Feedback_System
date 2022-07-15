@@ -1,0 +1,192 @@
+.navbar-custom {
+    background-color: #131313;
+    justify-items: end;
+}
+
+.body {
+    background-color: #e5e5e5;
+}
+
+.navi {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn-custom {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    margin: 1% 40%;
+    border: none;
+    background-color: #2F4550;
+    color: #F4f4f9;
+    min-height: 30px;
+    min-width: 120px;
+    border-radius: 50px;
+    transition: all .5s ease-out;
+    cursor: pointer;
+    margin: 20px 10px 20px 0;
+}
+
+.btn-custom:hover {
+    background-color: #2F4550;
+    color: #B8dbd9;
+    transition: all .2s ease-out;
+}
+
+.sidenav {
+    height: 100%;
+    width: 20%;
+    position: fixed;
+    left: 0;
+    background-color: #2F4550;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.profile-pic {
+    margin-top: 5%;
+    height: 20%;
+    border-radius: 50%;
+}
+
+.profile-pic img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain
+}
+
+.level {
+    padding-top: 5%;
+}
+
+.level-text {
+    font-family: 'Montserrat', sans-serif;
+    color: #B8dbd9;
+    font-weight: 200;
+    font-size: 40px;
+}
+
+.details {
+    background-color: #586f7c;
+    margin: 7%;
+    padding: 4%;
+    border-radius: 36px;
+}
+
+.deets {
+    color: #E5E5E5;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    line-height: 200%;
+}
+
+.action-btns .action {
+    border: none;
+    margin-left: 25%;
+    margin-top: 2.5%;
+    padding: 1% 0 1% 2%;
+    width: 70%;
+    text-align: left;
+    background-color: #586f7c;
+    color: #F4f4f9;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    border-radius: 70px;
+}
+
+.action-btns .action:hover {
+    background-color: #2F4550;
+    transition: .2s all ease-out;
+}
+
+.action span {
+    color: #F4f4f9;
+}
+
+.vectors {
+    width: 70px;
+    object-fit: contain;
+}
+
+.main {
+    margin-left: 160px;
+    /* Same as the width of the sidebar */
+    padding: 0px 10px;
+}
+
+.login {
+    padding: 0 10% 5% 10%;
+    font-size: 1.25rem;
+    color: #131313;
+}
+
+input {
+    border: none;
+    background-color: transparent;
+    border-bottom: 3px solid #596F7C;
+    border-radius: 3px;
+    width: 95%;
+    padding-top: 1rem;
+    font-size: 1.25rem;
+    font-family: 'Montserrat', sans-serif;
+    color: #2F4550;
+}
+
+input:focus {
+    outline: none !important;
+    border-color: #131313;
+    transition: all .2s ease-out;
+}
+
+.enter_student {
+    background-color: #B8dbd9;
+    border-radius: 6rem;
+}
+
+.submit_button {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem;
+    margin: 1% 0 3% 10%;
+    border: none;
+    background-color: #2F4550;
+    color: #F4f4f9;
+    min-height: 40px;
+    min-width: 150px;
+    border-radius: 50px;
+    transition: all .5s ease-out;
+    cursor: pointer;
+}
+
+.submit_button:hover {
+    background-color: #131313;
+    color: #B8dbd9;
+    transition: all .5s ease-out;
+}
+
+table {
+    width: 95%;
+    margin: 2% 2% 0% 2%;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: coral;
+}
+
+th,
+td {
+    border-bottom: 1px solid #ddd;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+    .sidenav a {
+        font-size: 18px;
+    }
+}
